@@ -11,7 +11,7 @@ namespace Participations
 
             string noise = Speak(AnimalType);
 
-            Console.WriteLine(noise);
+            Console.WriteLine($"The {AnimalType} goes {noise}.");
 
             Console.ReadKey();
         }
