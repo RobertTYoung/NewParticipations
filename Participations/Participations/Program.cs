@@ -3,7 +3,7 @@
 namespace Participations
 {
     class Program
-    {
+    {//Robert Young
         static void Main(string[] args)
         {
             Console.WriteLine("Please enter a type of animal. (cow, snake, dog, cat, etc) >>");
