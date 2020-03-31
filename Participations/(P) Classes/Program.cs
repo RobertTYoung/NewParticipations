@@ -9,33 +9,31 @@ namespace _P__Classes
             int padNum;
             char pad;
             ConsoleColor backColor, foreColor;
-            string text, Newtext;
+            string DisplayText;
 
             TextBox TB1 = new TextBox();
-            padNum = 2;
+            padNum = 40;
             pad = '-';
             backColor = ConsoleColor.Red;
             foreColor = ConsoleColor.White;
-            text = "Happy Birthday World!";
+            DisplayText = "Happy Birthday World!";
 
             Console.BackgroundColor = backColor;
             Console.ForegroundColor = foreColor;
-
-            Newtext = text.PadLeft(padNum);
-            Console.WriteLine(Newtext.PadLeft(padNum));
+            
+            Console.WriteLine(DisplayText.PadLeft(padNum, pad));
 
             TextBox TB2 = new TextBox();
-            padNum = 8;
+            padNum = 30;
             pad = '-';
             backColor = ConsoleColor.Green;
             foreColor = ConsoleColor.Blue;
-            text = "Happy Midnight World!";
+            DisplayText = "Happy Midnight World!";
 
             Console.BackgroundColor = backColor;
             Console.ForegroundColor = foreColor;
-
-            Newtext = text.PadRight(padNum, pad);
-            Console.WriteLine(Newtext);
+            
+            Console.WriteLine(DisplayText.PadLeft(padNum, pad));
 
             Console.ReadKey();
         }
