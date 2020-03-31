@@ -7,13 +7,14 @@ namespace _P__Classes
         static void Main(string[] args)
         {
             int padNum;
-            char pad;
+            char padLeft;
             ConsoleColor backColor, foreColor;
             string DisplayText;
 
             TextBox TB1 = new TextBox();
             padNum = 40;
-            pad = '-';
+            padLeft = '-';
+            //padRight = '=';
             backColor = ConsoleColor.Red;
             foreColor = ConsoleColor.White;
             DisplayText = "Happy Birthday World!";
@@ -21,11 +22,12 @@ namespace _P__Classes
             Console.BackgroundColor = backColor;
             Console.ForegroundColor = foreColor;
             
-            Console.WriteLine(DisplayText.PadLeft(padNum, pad));
+            Console.WriteLine(DisplayText.PadLeft(padNum, padLeft));
 
             TextBox TB2 = new TextBox();
             padNum = 30;
-            pad = '-';
+            padLeft = '-';
+            //padRight = '+';
             backColor = ConsoleColor.Green;
             foreColor = ConsoleColor.Blue;
             DisplayText = "Happy Midnight World!";
@@ -33,7 +35,7 @@ namespace _P__Classes
             Console.BackgroundColor = backColor;
             Console.ForegroundColor = foreColor;
             
-            Console.WriteLine(DisplayText.PadLeft(padNum, pad));
+            Console.WriteLine(DisplayText.PadLeft(padNum, padLeft));
 
             Console.ReadKey();
         }
