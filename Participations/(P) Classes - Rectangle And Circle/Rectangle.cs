@@ -20,11 +20,11 @@ namespace _P__Classes___Rectangle_And_Circle
             Length = length;
             Width = width;
         }
-        public double Area()
+        public double CalculateAreaR()
         {
             return Length * Width;
         }
-        public double Perimeter()
+        public double CalculatePerimeterR()
         {
             return 2 * (Length * Width);
         }

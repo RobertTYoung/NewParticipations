@@ -17,11 +17,11 @@ namespace _P__Classes___Rectangle_And_Circle
             Radius = radius;
         }
 
-        public double CalculateArea()
+        public double CalculateAreaC()
         {
             return (Math.PI) * (Radius * Radius);
         }
-        public double CalculatePerimeter()
+        public double CalculatePerimeterC()
         {
             return (2*(Math.PI)) * Radius;
         }
