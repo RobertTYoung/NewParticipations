@@ -23,9 +23,9 @@ namespace _P___
             FirstName = first;
             LastName = second;
         }
-        public double CalculateGPA(double TotalPointsEarned, double TotalCreditsAttempted)
-        {
-            return (TotalPointsEarned / TotalCreditsAttempted);
+        public double CalculateGPA(double TotalCreditHoursRecieved, double TotalCreditHoursAttempted)
+        {          
+            return (TotalCreditHoursRecieved / TotalCreditHoursAttempted);
         }
     }
 }
