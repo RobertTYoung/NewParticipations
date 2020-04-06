@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "(P) Simple Methods", "Parti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "(P) Classes - TextBox", "(P) Classes\(P) Classes - TextBox.csproj", "{C5E68FC9-AAE3-4F9A-9ED9-BABF76D6F2AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "(P) Classes - Rectangle And Circle", "(P) Classes - Rectangle And Circle\(P) Classes - Rectangle And Circle.csproj", "{E5FC0AFC-FC0E-4B83-997B-8070AD6F66E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "(P) Classes - Rectangle And Circle", "(P) Classes - Rectangle And Circle\(P) Classes - Rectangle And Circle.csproj", "{E5FC0AFC-FC0E-4B83-997B-8070AD6F66E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "(P) Classes - Student1", "(P) -\(P) Classes - Student1.csproj", "{080F743F-0B5E-42DF-B32D-2D4FC6BD035D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{E5FC0AFC-FC0E-4B83-997B-8070AD6F66E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5FC0AFC-FC0E-4B83-997B-8070AD6F66E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5FC0AFC-FC0E-4B83-997B-8070AD6F66E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{080F743F-0B5E-42DF-B32D-2D4FC6BD035D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{080F743F-0B5E-42DF-B32D-2D4FC6BD035D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{080F743F-0B5E-42DF-B32D-2D4FC6BD035D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{080F743F-0B5E-42DF-B32D-2D4FC6BD035D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
