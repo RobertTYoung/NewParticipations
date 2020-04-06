@@ -22,10 +22,12 @@ namespace _P___
             first = "Mike";
             second = "Mikelsan";
             CourseName = "MIS3013";
+
+            CalculateGPA G1 = new CalculateGPA (TotalCreditHoursAttempted, TotalCreditHoursRecieved);
             TotalCreditHoursAttempted = 15;
             TotalCreditHoursRecieved = 12;
 
-            Console.WriteLine($"{first}" + " " + $"{second} earned {TotalCreditHoursRecieved} out of {TotalCreditHoursAttempted} in {CourseName} and recived a GPA of {S2.CalculateGPA()}.");
+            Console.WriteLine($"{first}" + " " + $"{second} earned {G1.TotalCreditHoursRecieved} out of {G1.TotalCreditHoursAttempted} in {CourseName} and recived a GPA of {G1.CalculateGPA()}.");
 
             Console.ReadKey();
         }
