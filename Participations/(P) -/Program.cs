@@ -7,7 +7,7 @@ namespace _P___
         static void Main(string[] args)
         {
             string first, second, CourseName;
-            double TotalCreditHoursAttempted, TotalCreditHoursRecieved;
+            double TotalCreditHoursAttempted, TotalCreditHoursRecieved, GPA;
             first = "Mike";
             second = "Mikelsan";
             CourseName = "MIS3013";
@@ -23,11 +23,13 @@ namespace _P___
             second = "Mikelsan";
             CourseName = "MIS3013";
 
-            CalculateGPA G1 = new CalculateGPA (TotalCreditHoursAttempted, TotalCreditHoursRecieved);
+            //CalculateGPA G1 = new CalculateGPA (TotalCreditHoursAttempted, TotalCreditHoursRecieved);
             TotalCreditHoursAttempted = 15;
             TotalCreditHoursRecieved = 12;
+            GPA = TotalCreditHoursRecieved / TotalCreditHoursAttempted;
 
-            Console.WriteLine($"{first}" + " " + $"{second} earned {G1.TotalCreditHoursRecieved} out of {G1.TotalCreditHoursAttempted} in {CourseName} and recived a GPA of {G1.CalculateGPA()}.");
+            //Console.WriteLine($"{first}" + " " + $"{second} earned {G1.TotalCreditHoursRecieved} out of {G1.TotalCreditHoursAttempted} in {CourseName} and recived a GPA of {G1.CalculateGPA()}.");
+            Console.WriteLine($"{first}" + " " + $"{second} earned {TotalCreditHoursRecieved} out of {TotalCreditHoursAttempted} in {CourseName} and recived a GPA of {GPA}.");
 
             Console.ReadKey();
         }
