@@ -7,12 +7,12 @@ namespace _P___
         static void Main(string[] args)
         {
             string first, second, CourseName;
-            double TotalCreditHoursAttempted, TotalCreditHoursRecieved, GPA;
+            double TotalCreditHoursAttempted, TotalGradePintsRecieved, GPA;
             first = "Mike";
             second = "Mikelsan";
             CourseName = "MIS3013";
             TotalCreditHoursAttempted = 15;
-            TotalCreditHoursRecieved = 12;
+            TotalGradePintsRecieved = 12;
 
             //Student S1 = new Student();
             //S1.FirstName = "Robert";
@@ -24,12 +24,12 @@ namespace _P___
             CourseName = "MIS3013";
 
             //CalculateGPA G1 = new CalculateGPA (TotalCreditHoursAttempted, TotalCreditHoursRecieved);
-            TotalCreditHoursAttempted = 15;
-            TotalCreditHoursRecieved = 12;
-            GPA = TotalCreditHoursRecieved / TotalCreditHoursAttempted;
+            TotalCreditHoursAttempted = 3;
+            TotalGradePintsRecieved = 9;
+            GPA = TotalGradePintsRecieved / TotalCreditHoursAttempted;
 
             //Console.WriteLine($"{first}" + " " + $"{second} earned {G1.TotalCreditHoursRecieved} out of {G1.TotalCreditHoursAttempted} in {CourseName} and recived a GPA of {G1.CalculateGPA()}.");
-            Console.WriteLine($"{first}" + " " + $"{second} earned {TotalCreditHoursRecieved} out of {TotalCreditHoursAttempted} in {CourseName} and recived a GPA of {GPA}.");
+            Console.WriteLine($"{first}" + " " + $"{second} earned {TotalGradePintsRecieved} out of {TotalCreditHoursAttempted} in {CourseName} and recived a GPA of {GPA}.");
 
             Console.ReadKey();
         }
