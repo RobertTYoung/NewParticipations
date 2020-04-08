@@ -21,12 +21,19 @@ namespace _P__Classes_2___Toys
         }
         public string GetAisle(string Manufacturer)
         {
-            int ManLength = Manufacturer.Length;           
-            string GA = (Manufacturer.Remove(ManLength - 3));
+            int ManLength = Manufacturer.Length - 1;           
+            //string GA = (Manufacturer.Remove(ManLength));
+            string GA = Truncate(Manufacturer, ManLength);
             Random rnd = new Random();
             int AN = rnd.Next(1, 25);
-            string output = $"{GA}{AN}.";
+            string output = $"{GA}{AN}";
             return output;
+        }
+
+        public string Truncate(string manufacturer, int ManLength)
+        {
+            string NewGA = " ";
+            return NewGA;
         }
     }
 }
