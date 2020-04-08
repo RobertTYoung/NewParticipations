@@ -6,8 +6,8 @@ namespace _P__Classes_2___Toys
     {
         static void Main(string[] args)
         {
-            string Manufacturer, Name, Aisle;
-            double Price;
+            //string Manufacturer, Name, Aisle;
+            //double Price;
 
             /*Manufacturer = "Nike";
             Name = "Robert";
@@ -18,7 +18,7 @@ namespace _P__Classes_2___Toys
             T1.Name = "Robert";            
             T1.Price = 22.99;
 
-            Console.WriteLine($"{T1.Manufacturer} makes a toy called {T1.Name} on Aisle {T1.GetAisle()} and sells it for {T1.Price}.");
+            Console.WriteLine($"{T1.Manufacturer} makes a toy called {T1.Name} on Aisle {T1.GetAisle(T1.Manufacturer)} and sells it for {(T1.Price).ToString("C2")}.");
 
             Console.ReadKey();
             

@@ -5,9 +5,7 @@ using System.Text;
 namespace _P__Classes_2___Toys
 {
     class Toy
-    {
-        private string GA;
-
+    {       
         public string Manufacturer { get; set; }
         public string Name { get; set; }
         public double Price  { get; set; }
@@ -21,15 +19,14 @@ namespace _P__Classes_2___Toys
             Price = 0;
             Aisle = " ";
         }
-        public string GetAisle()
-        {
-            Manufacturer = manufactuer
-        }
         public string GetAisle(string Manufacturer)
         {
             int ManLength = Manufacturer.Length;           
-            GA = Manufacturer.Remove(ManLength - 1);
-            return GA;
+            string GA = (Manufacturer.Remove(ManLength - 3));
+            Random rnd = new Random();
+            int AN = rnd.Next(1, 25);
+            string output = $"{GA}{AN}.";
+            return output;
         }
     }
 }
