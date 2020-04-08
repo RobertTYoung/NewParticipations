@@ -6,6 +6,8 @@ namespace _P__Classes_2___Toys
 {
     class Toy
     {
+        private string GA;
+
         public string Manufacturer { get; set; }
         public string Name { get; set; }
         public double Price  { get; set; }
@@ -19,9 +21,15 @@ namespace _P__Classes_2___Toys
             Price = 0;
             Aisle = " ";
         }
-        public void GetAisle(string Manufacturer)
+        public string GetAisle()
         {
-            return (Manufacturer - (Manufacturer.Length - 1));
+            Manufacturer = manufactuer
+        }
+        public string GetAisle(string Manufacturer)
+        {
+            int ManLength = Manufacturer.Length;           
+            GA = Manufacturer.Remove(ManLength - 1);
+            return GA;
         }
     }
 }
