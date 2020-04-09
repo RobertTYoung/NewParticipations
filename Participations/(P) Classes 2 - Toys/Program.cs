@@ -20,7 +20,7 @@ namespace _P__Classes_2___Toys
 
             Console.WriteLine($"\n{T2.Manufacturer} makes a toy called {T2.Name} on aisle {T2.GetAisle(T2.Manufacturer)} and sells it for {(T2.Price).ToString("C2")}.");
 
-            /*ToyBox TB1 = new ToyBox();/
+            /*ToyBox TB1 = new ToyBox();
             TB1.Toys = new List<string>();
             TB1.Toys.Add(T1.Name);
             TB1.Toys.Add(T2.Name);
