@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "(P) Classes - Rectangle And
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "(P) Classes - Student1", "(P) -\(P) Classes - Student1.csproj", "{080F743F-0B5E-42DF-B32D-2D4FC6BD035D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "(P) Classes 2 - Toys", "(P) Classes 2 - Toys\(P) Classes 2 - Toys.csproj", "{67A2DE64-3B8D-4FCA-BA8A-067AB905AAD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "(P) Classes 2 - Toys", "(P) Classes 2 - Toys\(P) Classes 2 - Toys.csproj", "{67A2DE64-3B8D-4FCA-BA8A-067AB905AAD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "(P) WPF - 1", "(P) WPF - 1\(P) WPF - 1.csproj", "{D4AC8089-D273-40FE-9872-56724A0D200E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{67A2DE64-3B8D-4FCA-BA8A-067AB905AAD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67A2DE64-3B8D-4FCA-BA8A-067AB905AAD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67A2DE64-3B8D-4FCA-BA8A-067AB905AAD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4AC8089-D273-40FE-9872-56724A0D200E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4AC8089-D273-40FE-9872-56724A0D200E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4AC8089-D273-40FE-9872-56724A0D200E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4AC8089-D273-40FE-9872-56724A0D200E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
