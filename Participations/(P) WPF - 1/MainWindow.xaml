@@ -17,7 +17,7 @@
         <TextBox x:Name="txtFavColor" HorizontalAlignment="Left" Height="74" Margin="75,141,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="159"/>
         <TextBox x:Name="txtUserName" HorizontalAlignment="Left" Height="74" Margin="554,141,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="152"/>
         <Label x:Name="lblFaveColor" Content="Enter Favorite Color&#xD;&#xA;" HorizontalAlignment="Left" Margin="75,99,0,0" VerticalAlignment="Top" Height="53" Width="159" Background="Transparent" FontSize="16"/>
-        <Label x:Name="lblUserName" Content="Enter User Name&#xD;&#xA;" HorizontalAlignment="Left" Margin="554,99,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="lblUserName" Content="Enter User Name&#xD;&#xA;" HorizontalAlignment="Left" Margin="577,99,0,0" VerticalAlignment="Top" FontSize="16"/>
         <Button x:Name="btnProcess" Content="Process" HorizontalAlignment="Left" Margin="295,257,0,0" VerticalAlignment="Top" Width="177" Height="56" FontSize="18" Click="btnProcess_Click" MouseEnter="btnProcess_MouseEnter"/>
 
     </Grid>
