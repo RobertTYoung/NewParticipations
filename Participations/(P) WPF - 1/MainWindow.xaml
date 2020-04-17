@@ -7,7 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label Content="WPF Participation" HorizontalAlignment="Left" Margin="348,59,0,0" VerticalAlignment="Top" Height="107" Width="176" RenderTransformOrigin="0.508,0.486"/>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF875959" Offset="0.217"/>
+                <GradientStop Color="#FFEA3B3B" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label x:Name="lbl" Content="WPF Participation" HorizontalAlignment="Left" Margin="235,10,0,0" VerticalAlignment="Top" Height="107" Width="314" RenderTransformOrigin="0.508,0.486" FontSize="36"/>
+        <TextBox x:Name="txtFavColor" HorizontalAlignment="Left" Height="74" Margin="75,141,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="159"/>
+        <TextBox x:Name="txtUserName" HorizontalAlignment="Left" Height="74" Margin="554,141,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="152"/>
+        <Label x:Name="lblFaveColor" Content="Enter Favorite Color&#xD;&#xA;" HorizontalAlignment="Left" Margin="75,99,0,0" VerticalAlignment="Top" Height="53" Width="159" Background="Transparent" FontSize="16"/>
+        <Label x:Name="lblUserName" Content="Enter User Name&#xD;&#xA;" HorizontalAlignment="Left" Margin="554,99,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button x:Name="btnProcess" Content="Process" HorizontalAlignment="Left" Margin="295,257,0,0" VerticalAlignment="Top" Width="177" Height="56" FontSize="18"/>
 
     </Grid>
 </Window>
