@@ -24,5 +24,27 @@ namespace _P__WPF___1
         {
             InitializeComponent();
         }
+
+        private void btnProcess_Click(object sender, RoutedEventArgs e)
+        {
+            string name, favColor;
+            name = txtUserName.Text;
+            favColor = txtFavColor.Text;
+
+            if (favColor == "Blue")
+            {
+                MessageBox.Show($"We have the same favorite color!");
+            }
+            else
+            {
+                MessageBox.Show($"{name} that is really cool, I never would have expected your favorite color to be {favColor}");
+            }
+           
+        }
+
+        private void btnProcess_MouseEnter(object sender, MouseEventArgs e)
+        {
+            btnProcess.Background = Brushes.Red;
+        }
     }
 }
