@@ -24,5 +24,21 @@ namespace _P__WPF___2
         {
             InitializeComponent();
         }
+
+        private void btnClear_Click(object sender, RoutedEventArgs e)
+        {
+            txtNumMax.Text = "";
+            txtNumMax.Clear();
+        }
+
+        private void btnExecute_Click(object sender, RoutedEventArgs e)
+        {
+            string NumMax;
+            NumMax = txtNumMax.Text;
+
+            int NumMaxAsNumber = Convert.ToInt32(NumMax);
+
+
+        }
     }
 }
