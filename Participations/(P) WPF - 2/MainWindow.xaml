@@ -15,7 +15,9 @@
         </Grid.Background>
         <RadioButton x:Name="rbtnEvenOrOdd" Content="Results Even (Unchecked Odd)" HorizontalAlignment="Left" Margin="167,179,0,0" VerticalAlignment="Top" Height="46" Width="186"/>
         <Label x:Name="lblWPF2" Content="(P) WPF - 2" HorizontalAlignment="Left" Margin="323,22,0,0" VerticalAlignment="Top" Width="135" FontSize="24"/>
-        <ListBox x:Name="lboxList" HorizontalAlignment="Left" Height="261" Margin="516,81,0,0" VerticalAlignment="Top" Width="210"/>
+        <ListBox x:Name="lboxList" HorizontalAlignment="Left" Height="261" Margin="516,81,0,0" VerticalAlignment="Top" Width="210">
+            <RadioButton x:Name="rbtnEvenOrOdd1" IsChecked="True"/>
+        </ListBox>
         <TextBox x:Name="txtNumMax" HorizontalAlignment="Left" Height="23" Margin="168,129,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="lblMaxNum" Content="What is the Maximum number of the results you want." HorizontalAlignment="Left" Margin="98,81,0,0" VerticalAlignment="Top" Width="297"/>
         <Button x:Name="btnExecute" Content="Execute" HorizontalAlignment="Left" Margin="167,322,0,0" VerticalAlignment="Top" Width="121" Height="30" Click="btnExecute_Click"/>

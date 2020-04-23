@@ -38,6 +38,18 @@ namespace _P__WPF___2
 
             int NumMaxAsNumber = Convert.ToInt32(NumMax);
 
+            if (rbtnEvenOrOdd1.IsChecked == true)
+            {
+                if (NumMaxAsNumber % 2)
+                {
+
+                }      
+                {
+
+                }
+                lboxList.Items.Add();
+            }
+
 
         }
     }
