@@ -28,7 +28,7 @@ namespace _P__WPF___2
         private void btnClear_Click(object sender, RoutedEventArgs e)
         {
             txtNumMax.Text = "";
-            txtNumMax.Clear();
+           lboxList.Items.Clear();
         }
 
         private void btnExecute_Click(object sender, RoutedEventArgs e)
@@ -43,7 +43,7 @@ namespace _P__WPF___2
 
             int NumMaxAsNumber = Convert.ToInt32(NumMax);
 
-            for (int i = 1; i <= NumMaxAsNumber; i++)
+            for (int i = 0; i <= NumMaxAsNumber; i++)
             {
                 if (i % 2 != 0)
                 {
@@ -59,9 +59,9 @@ namespace _P__WPF___2
 
             int NumMaxAsNumber = Convert.ToInt32(NumMax);
             
-            for (int i = 1; i <= NumMaxAsNumber; i++)
+            for (int i = 0; i <= NumMaxAsNumber; i++)
             {
-                if (i % 2 != 0)
+                if (i % 2 == 0)
                 {
                     lboxList.Items.Add(i);
                 }
