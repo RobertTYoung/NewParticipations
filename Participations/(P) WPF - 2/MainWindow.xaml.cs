@@ -40,7 +40,7 @@ namespace _P__WPF___2
 
             if (rbtnEvenOrOdd1.IsChecked == true)
             {
-                if (NumMaxAsNumber % 2)
+                if (NumMaxAsNumber % 2 != 0)
                 {
 
                 }      
@@ -50,6 +50,11 @@ namespace _P__WPF___2
                 lboxList.Items.Add();
             }
 
+
+        }
+
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {
 
         }
     }
