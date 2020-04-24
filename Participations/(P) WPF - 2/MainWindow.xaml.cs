@@ -33,29 +33,39 @@ namespace _P__WPF___2
 
         private void btnExecute_Click(object sender, RoutedEventArgs e)
         {
+            
+        }
+
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {
             string NumMax;
             NumMax = txtNumMax.Text;
 
             int NumMaxAsNumber = Convert.ToInt32(NumMax);
 
-            if (rbtnEvenOrOdd1.IsChecked == true)
+            for (int i = 1; i <= NumMaxAsNumber; i++)
             {
-                if (NumMaxAsNumber % 2 != 0)
+                if (i % 2 != 0)
                 {
-
-                }      
-                {
-
+                    lboxList.Items.Add(i);
                 }
-                lboxList.Items.Add();
             }
-
-
         }
 
-        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        private void rbtnEven_Checked(object sender, RoutedEventArgs e)
         {
+            string NumMax;
+            NumMax = txtNumMax.Text;
 
+            int NumMaxAsNumber = Convert.ToInt32(NumMax);
+            
+            for (int i = 1; i <= NumMaxAsNumber; i++)
+            {
+                if (i % 2 != 0)
+                {
+                    lboxList.Items.Add(i);
+                }
+            }
         }
     }
 }
