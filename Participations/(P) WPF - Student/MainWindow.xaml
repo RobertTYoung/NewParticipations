@@ -25,6 +25,7 @@
         <Label Content="Favorite Color:" HorizontalAlignment="Left" Margin="66,290,0,0" VerticalAlignment="Top"/>
         <Button x:Name="btnProcess" Content="Process" HorizontalAlignment="Left" Margin="200,353,0,0" VerticalAlignment="Top" Width="99" Height="40" Click="btnProcess_Click"/>
         <ListBox x:Name="lbxStudents" HorizontalAlignment="Left" Height="202" Margin="443,114,0,0" VerticalAlignment="Top" Width="323"/>
+        <Button x:Name="btnStudentData" Content="Preloaded Student Data" HorizontalAlignment="Left" Margin="523,353,0,0" VerticalAlignment="Top" Width="165" Height="40" Click="btnStudentData_Click"/>
 
     </Grid>
 </Window>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -39,6 +40,16 @@ namespace _P__WPF___Student
             txtFName.Clear();
             txtLName.Clear();
             txtFavColor.Clear();
+        }
+
+        private void btnStudentData_Click(object sender, RoutedEventArgs e)
+        {
+            string path = @"C:\Documents\studentdataRandom10Rows.CSV";
+          
+            if (!File.Exists(path))
+            {
+                lbxStudents.Items.Add(File.ReadAllLines(path));
+            }
         }
     }
 }
