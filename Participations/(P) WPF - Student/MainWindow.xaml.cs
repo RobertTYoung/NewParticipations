@@ -50,6 +50,13 @@ namespace _P__WPF___Student
             {
                 lbxStudents.Items.Add(File.ReadAllLines(path));
             }
+
+            string path = @"C:\Documents\studentdataRandom100Rows.CSV";
+
+            if (!File.Exists(path))
+            {
+                lbxStudents.Items.Add(File.ReadAllLines(path));
+            }
         }
     }
 }
