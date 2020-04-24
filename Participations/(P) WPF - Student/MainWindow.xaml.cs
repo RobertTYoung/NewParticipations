@@ -24,5 +24,21 @@ namespace _P__WPF___Student
         {
             InitializeComponent();
         }
+
+        private void btnProcess_Click(object sender, RoutedEventArgs e)
+        {
+            string studentID, FName, LName, FavoriteColor;
+            studentID = txtStudentID.Text;
+            FName = txtFName.Text;
+            LName = txtLName.Text;
+            FavoriteColor = txtFavColor.Text;
+
+            lbxStudents.Items.Add($"{FName} {LName} has the StuddentID number {studentID} and their favorite color is {FavoriteColor}.");
+
+            txtStudentID.Clear();
+            txtFName.Clear();
+            txtLName.Clear();
+            txtFavColor.Clear();
+        }
     }
 }
